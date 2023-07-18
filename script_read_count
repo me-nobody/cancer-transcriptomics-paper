@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+echo Hello
+counter=0
+for file in $(cat sra_test2.csv)
+   do
+      echo $file
+      ((counter++));
+   done
+   
+echo $counter   
+   
+   

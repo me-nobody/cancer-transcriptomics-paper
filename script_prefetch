@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+echo Hello
+for entry in `cat GSE156451.csv`
+   do
+      prefetch -p $entry
+   done
+echo done   
